@@ -1,0 +1,624 @@
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.main2 {
+    margin-top: 300px;
+}
+
+a:hover {
+    color: pink;
+}
+
+img#icone {
+    width: 30px;
+    /* display: flex; */
+    position: fixed;
+    right: 1240px;
+    top: 20px;
+    /* border: 1px solid; */
+}
+
+div#interface {
+    width: 940px;
+    margin: -20px auto 10px auto; 
+    padding: 10px;
+    /* border: 1px solid; */
+    
+    
+    
+}
+
+h1 {
+    position: fixed;
+    /* position: absolute; */
+    /* right:800px; */
+    top: -17px;
+    color: white;
+}
+
+.img-responsive {
+    width: 300px;
+}
+
+#botaoescolha {
+    margin-left: 40px;
+}
+
+#botaoescolha2 {
+    margin-left: 40px;
+}
+
+body {
+    font-family: 'Amatic SC', cursive;
+    background-color:#e8e2e1;
+    color: white;
+    font-size: 27px;
+    /* border: 1px solid; */
+    background: url('../_imagens/dw21batch4-sasi-43_1.jpg') no-repeat;
+    background-size: 100% 900px;
+    background-position: top;
+      
+}
+
+nav#menu {
+    display: block;
+    text-decoration: none;
+    /* border: 1px solid; */
+    width: 550px;
+    
+    
+}
+
+.responsive{
+    background-color: black;
+}
+
+nav#menu ul {
+    
+    
+    position: relative;
+    top: 5px;
+    left: 450px;
+    display: block;
+    /* border: 1px solid; */
+}
+
+nav#menu li {
+    display: inline-block;
+    /* background-color: #dddddd; */
+    padding: 5px; /*//espaço dentro do objeto  */
+    margin: 1px;  /* espaço fora dos objetos */
+    /* transition: background-color 1s; */
+    border: 2px solid white;
+    background-color: black;
+    
+    
+}
+
+header h2#explicaSite {
+    text-align: center;
+    display: block;
+    /* position: relative; */
+    top: 50px;
+    /* border: 1px solid; */
+
+}
+
+section#sectionInicio {
+    /* position: relative ; */
+    /* left: auto;
+    top: 300px; */
+    /* border: 1px solid; */
+        
+}
+
+section#sectionInicio h2{
+    text-align: center;
+    margin-top: 350px;
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: 700;
+    /* border: 1px solid; */
+}
+
+section#sectionInicio h3{
+    text-align: center;
+    /* border: 1px solid; */
+}
+
+section#sectionInicio button{
+    text-align: center;
+    display: block;
+    position: relative;
+    top:-5px;
+    left: 450px;
+    
+}
+
+.form-control{
+    border-radius: 10px;
+    
+}
+
+/* div.container {
+    margin: solid black;
+} */
+
+.botaoEscolher {
+    font-family: arial;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background: pink;
+    color:salmon;
+    box-shadow: 0 2px 0 rgb(158, 42, 61);
+    border-radius: 10px;
+}
+
+.botaoEscolher:hover {
+    background:rgb(158, 42, 61);
+    color:salmon;
+
+}
+
+div#escolher {
+    /* border: black solid; */
+    top: 1000px;
+    
+}
+
+div#escolher h2{
+    text-align: center;
+    top: 400px ;
+}
+
+div#escolher li {
+    display: inline-block;  
+    padding: 40px;
+
+}
+div#escolher ol {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    /* padding: 40px; */
+    /* border: 1px solid; */
+    /* margin: 300px 2px 3px 4px */
+    
+    /* border-top: 1000px; */
+    
+
+}
+
+
+.abreoutrapg {
+    margin: 300px 2px 3px 400px; 
+
+}
+
+.h3detalhes {
+    text-align: center;
+    
+}
+
+
+img.imagemgerada {
+    width: 200px;
+}
+
+.col-sm-6  {
+    flex: 1 1 200px;
+    border: 5px solid white;
+    margin: 10px ;
+    
+}
+
+.testando {
+    margin: 300px 2px 3px 4px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.mostracategoria {
+    position: relative;
+    left: 350px;
+    top: -350px;
+}
+
+.mostranacionalidade{
+    position: relative;
+    left: 350px;
+    top: -350px;
+
+}
+
+.mostrainstructions{
+    position: relative;
+    left: 350px;
+    top: -350px;
+    text-align: center;
+    width: 600px;
+
+}
+.pinstrucoes {
+    position: absolute;
+    width: 700px;
+    
+    text-align: left;
+}
+
+img#imagemnoticia {
+    width: auto;
+    height: 300px;
+    transition: 1s all ease;
+}
+
+
+h3#h3noticia {
+    text-align: center;
+    width: 40%;
+    margin: 100px auto 30px;
+    max-width: 400px
+}
+
+h2.h2noticia {
+    text-align: center;
+    
+    
+}
+
+article#articleNoticia {
+    display: flex;
+    border: solid white;
+    /* justify-content: flex-start; */
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+
+}
+
+h2#h2noticiadentro {
+    position: relative;
+    left: 200px;
+    
+}
+
+.retrato{
+    margin: 80px 20px 10px 100px;
+    border: 10px solid white;
+    width: auto;
+    height: 300px;
+    box-sizing: content-box;
+    overflow: hidden;
+}
+
+#imagemnoticia:hover{
+    transform: scale(1.5);
+
+}
+
+button#botaonoticias {
+    margin: 10px auto 30px;
+    
+}
+
+
+article#articleContato {
+    display: flex;
+    border: solid white;
+    /* justify-content: flex-start; */
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    
+}
+
+h3#h3contato {
+    text-align: center;
+    width: 40%;
+    margin: 10px 100px 30px;
+    max-width: 400px
+}
+
+section#contato {
+    position: relative;
+    top: 130px;
+    right: 100px;
+}
+
+.error{
+    color: red;
+    margin-top: 20px;
+    text-align: center;
+}
+
+input#botaoform {
+    position: relative;
+    left: 150px;
+}
+
+h2#h2contato {
+    text-align: center;
+}
+
+
+footer#rodape {
+    clear: both;
+    border-top: 1px solid white;
+    /* position: relative; */
+    /* top: 500px; */
+}
+
+footer#rodape p {
+    text-align: center;
+}
+
+/* tablet */
+@media (min-width: 600px) and (max-width: 1024px) {
+    body {
+        background-size: 100% 900px;
+        /* width: 10px; */
+        
+        
+        
+     }
+     div#interface {
+        width: 480px;
+        margin: -100px -15px -100px 40px; 
+        padding: 3px;  
+    }
+    h1{
+        left: 10px;
+        font-size: 35px;
+    }
+
+
+    nav#menu ul {
+    position: absolute;
+    top: -10px;
+    left: 300px;
+    display: block;
+    width: 220px;
+    }
+
+    section#sectionInicio button{
+    top:-5px;
+    left: 200px;
+    
+    }
+    h2#h2noticiadentro {
+        position: absolute;
+        left: 140px;
+        text-align: center;
+        
+    }
+    
+    button#botaonoticias {
+        margin: auto;
+    }
+    h3#h3noticia {
+        width: 80%;
+        margin: auto;
+        max-width: 400px
+    }
+    section#contato {
+        position: relative;
+        margin: 300px 800px 100px -150px;
+        
+    }
+    input#botaoform {
+        margin: -20px 100px 50px 10px;
+
+    }
+    h3#h3contato {
+        width: 100%;
+        margin: 10px 100px 30px 90px;
+        
+    }
+    article#articleContato {
+        margin-left: 20px;
+    }
+
+    article#articleNoticia {
+        margin-left: 20px;
+    }
+
+    .voltarTopo{
+        position: relative;
+        right: -20px;
+    }
+    /* .At{
+        margin-right: -200px;
+        
+    } */
+
+
+}
+/* celular */
+@media screen and (max-width: 480px) { 
+    body {
+        background-size: 100% 900px;
+        
+        
+        
+     }
+    footer#rodape {
+        margin-right: 15px;
+
+    }
+
+    .At{
+        margin-right: 40px;
+        
+    }
+
+    div#interface {
+        width: 480px;
+        margin: -200px -5px -100px -20px; 
+        padding: 3px;  
+    }
+    img#icone {
+        width: 30px;
+        /* display: flex; */
+        position: fixed;
+        right: 440px;
+        top: 20px;
+        /* border: 1px solid; */
+    }
+    h1{
+        left: 10px;
+        font-size: 35px;
+    }
+    nav#menu ul {
+        position: absolute;
+        top: -10px;
+        left: 190px;
+        display: block;
+        width: 220px;
+    }
+
+    section#sectionInicio button{
+        top:-5px;
+        left: 200px;
+        
+    }
+    .testando {
+        margin: 250px 2px 3px 20px;
+    }
+    .container {
+        margin: 200px 2px -80px 20px;
+        /* border: black solid; */
+        
+        
+    }
+    .col-sm-6  {
+        flex: 1 1 50px;
+        border: 5px solid white
+        margin: 5px ;
+        
+    }
+    div#escolher {
+    
+        /* border: black solid; */
+        margin-top: 100px;
+        margin-bottom: -100px;
+        
+    }
+    .row {
+        margin-left: 15px;
+        
+    }
+    h2#h2noticiadentro {
+        position: absolute;
+        left: 140px;
+        
+    }
+
+    button#botaonoticias {
+        margin: auto;
+    }
+    h3#h3noticia {
+        width: 80%;
+        margin: auto;
+        max-width: 400px
+    }
+    section#contato {
+        position: relative;
+        margin: 300px 800px 100px -150px;
+        
+    }
+    input#botaoform {
+        margin: -20px 100px 50px 10px;
+
+    }
+    h3#h3contato {
+        width: 100%;
+        margin: 10px 100px 30px 90px;
+        
+    }
+    article#articleContato {
+        margin-left: 20px;
+    }
+
+    article#articleNoticia {
+        margin-left: 20px;
+    }
+
+    .voltarTopo{
+        position: relative;
+        right: -20px;
+    }
+
+    section#sectionInicio h2{
+        margin-top: 550px;
+    }
+    .abreoutrapg {
+        margin: 200px 2px -100px 4px; 
+    
+    }
+
+    .mostracategoria {
+        position: relative;
+        left: 30px;
+        bottom: 150px;
+        top: -10px;
+    }
+    
+    .mostranacionalidade{
+        position: relative;
+        left: 30px;
+        bottom: 150px;
+        top: -10px;
+    
+    }
+    
+    .mostrainstructions{
+        position: relative;
+        left: 60px;
+        bottom: 150px;
+        top: -10px;
+        text-align: center;
+        width: 80%;
+    
+    }
+    .pinstrucoes {
+        position: relative;
+        /* width: 1%; */
+        max-width: 380px;
+        text-align: left;
+    }
+
+    .nomeoutrapg{
+        position: relative;
+        left: 100px;
+    }
+
+    .img-responsive {
+        position: relative;
+        left: 100px;
+    }
+    .main2 {
+        width: 480px;
+        margin-left: 20px;
+    }
+    .responsive {
+        margin-left: 10px ;
+    }
+    
+
+}
+
+
+

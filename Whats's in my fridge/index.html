@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css" />
+    <title>O que tem na sua geladeira </title>
+</head>
+<body class="responsive">
+    <div id="interface">
+
+
+            <header id="cabecalho">
+                <hgroup class="iconejunto">
+                    <a href=""><img id="icone" src="_imagens/fridge-310946_640.png" alt=""><h1>what's in my fridge?</h1></a>
+                    
+                </hgroup>
+    
+                <nav id="menu">
+                    <!-- <h1>Menu Principal</h1> -->
+                    <ul class="menu2" type="disc">
+                        <li><a href="#menu">Home</a></li>
+                        <li><a href="#cssPivotto">Bebidas</a></li>
+                        <li><a href="#cssPivotto">Comidas</a></li>
+                        <li><a href="#articleNoticia">Notícia</a></li>
+                        <li><a href="#articleContato">Contato</a></li>
+                        <li><a href="Assesment-R.html">Assessment</a></li>
+                    </ul>
+                </nav>
+                
+    
+            </header>
+            
+            <section id="sectionInicio">
+                <h2>Qual ingrediente você possui ai?</h2>
+                <h3 id="explicaSite">Nesse site você escolhe um ingrediente e descobre várias receitas</h3>
+
+                
+
+                <button class="botaoEscolher"><a href="#cssPivotto">Escolher</a></button>
+            </section>
+        
+
+        <main class="main">
+            <div id="cssPivotto">
+
+                <div class="testando">
+                    <div id="escolher">
+                        <h2>Você deseja procurar receitas de: </h2>
+                  
+                        <ol>
+                          <li>DRINKS<button id="drinks" class="botaoEscolher" onclick="buscar_Bebidas()">escolha</button></li> 
+                          <li>FOODS<button id="foods" class="botaoEscolher" onclick="buscar_Comidas()">escolha</button></li> 
+                        </ol>
+                  
+                    </div>
+                </div>
+    
+                <section id="nome_bebida">
+    
+                    <div class="container">
+            
+                        <!-- <div class="header clearfix"></div> -->
+                        <h2>Buscar Bebidas</h2>
+                
+                        <div class="jumbotron">
+                            <div class="col-lg-12">
+                                <form class="input-group" id="formulario2">
+                                    <h3>Escreva um ingrediente para sua bebida!</h3>
+                                    <input type="text" name="" class="form-control" id="pesquisar2" placeholder="English Only">
+                                    <span class="input-group-bpn">
+                                        <button  class="botaoEscolher" type="submit">
+                                            pesquisar
+                                        </button> 
+                                    </span>
+                
+                                </form>
+                            </div>
+                        </div>
+                
+                    </div>
+                </section>
+    
+                <section id="nome_comida">
+    
+                    <div class="container">
+                
+                        <div class="header clearfix"></div>
+                        <h2>Buscar Comidas</h2>
+                
+                        <div class="jumbotron">
+                            <div class="col-lg-12">
+                                <form class="input-group" id="formulario">
+                                    <h3>Escreva um ingrediente para sua comida!</h3>
+                                    <input type="text" name="" class="form-control" id="pesquisar" placeholder="English Only">
+                                    <span class="input-group-bpn">
+                                        <button  class="botaoEscolher" type="submit">
+                                            pesquisar
+                                        </button> 
+                                    </span>
+                                </form>
+                            </div>
+    
+                        </div>
+                
+                    </div>
+
+                </section>
+                
+                <div class="container"></div>
+                <div class="row" id="Comidas"></div>
+                <div class="error" id="error"></div>
+                <div class="row" id="Bebidas"></div>
+                <script src="js/main.js"></script>
+
+            </div>
+            <h2 class="h2noticia">noticia</h2>
+
+            <article id="articleNoticia">
+                <div class="retrato">
+                    <img id="imagemnoticia" src="_imagens/api (2).png" alt="">
+                </div>
+                <h2 id="h2noticiadentro">APIs</h2>
+                <h3 id="h3noticia">O TheMealDB é um banco de dados aberto, mantido pela comunidade, com receitas e ingredientes de todo o mundo.
+                    Os end-points são bastante ricos, você pode vê-los clicando no botão abaixo!</h3>
+                <button id="botaonoticias" class="botaoEscolher"><a href="https://www.themealdb.com/api.php">veja mais noticias</a></button>
+
+            </article>
+            <h2 class="h2noticia">Contato</h2>
+
+            <article id="articleContato">
+
+                <hgroup>
+                    
+                    <h2 id="h2contato">Mande sua receita!</h2>
+                    <h3 id="h3contato">Quer que sua receita apareça aqui no site? Então mande para nós que ficaremos felizes em adicionar para que todos tenham acesso.
+                        Agradecemos por sua ajuda em compor um site cada vez mais completo!
+                    </h3>
+                </hgroup>
+
+
+                <section id="contato">
+                    <form method="post" id="fContato" action="mailto:ferslomp@hotmail.com">
+        
+                        <div class="contato">
+                            <label for="nomePessoal">Seu Nome: </label>
+                            <input type="text" name="nomePessoal" id="nomePessoal" placeholder="Insira aqui seu nome!" required>
+                        </div>
+                        <div class="contato">
+                            <label for="emailPessoal">E-mail:</label>
+                            <input type="email" name="emailPessoal" id="emailPessoal" placeholder="Insira seu e-mail" required>
+                        </div>
+                        <div class="contato">
+                            <label for="comentarios">Receita:</label>
+                            <textarea name="comentarioPessoal" id="comentarioPessoal" placeholder="Escreva aqui sua receita!"
+                                required cols="50" rows="15"></textarea>
+                        </div>
+        
+                        <div >
+                            <input id="botaoform" type="submit" value="Enviar" class="botaoEscolher">
+                        </div>
+                    </form>
+                </section>
+
+
+            </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <a href="#cabecalho"><button class="voltarTopo"><i class="fa fa-angle-up"></i></button></a>
+
+
+        <footer id="rodape">
+            <p> Copyright &copy; 2020 - by Fernanda Slomp - Assessment - Interfaces Web & JavaScript </br>
+
+                <a href='http://www.facebook.com' target="_blank"><i class="fa fa-facebook-square"></i>Facebook</a> |
+                
+                <a href='https://www.linkedin.com/in/fernanda-slomp-2977721aa/' target="_blank"><i class="fa fa-linkedin"></i>linkedin</a>
+            </p>
+            
+        </footer>
+
+    </div>
+
+    
+</body>
+</html>
