@@ -1,3 +1,10 @@
-# Site Buscar Ingrediente por API.
+# Site para buscar ingredientes por API.
 
- Repositório criado para o ASSESSMENT do curso de ADS do instituto INFNET. Utilizando HTML, CSS e JAVASCRIPT. 
+## Repositório criado para o ASSESSMENT do curso de Análise e Desenvolvimento de Sistemas do instituto INFNET. 
+
+O site foi criado utilizando HTML, CSS e JAVASCRIPT. A api usada foi retirada do site: https://www.themealdb.com/api.php
+
+
+
+ 
+ 
